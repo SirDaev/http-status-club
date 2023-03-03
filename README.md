@@ -1,1 +1,1 @@
-# teapot-codes
+# HTTP Status Code Tester
