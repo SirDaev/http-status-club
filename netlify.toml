@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/code/*"
+  to = "/.netlify/functions/statusCodeHandler"
+  status = 200
+  force = true
