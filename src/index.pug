@@ -2,12 +2,26 @@ doctype html
 html(lang="en")
   head
     title HTTP Response Status Code Tester
+    <style>code {background: #eee; padding: 4px 6px; border-radius: 8px;}</style>
   body
     h1 HTTP Response Status Code Tester
-    h2 The following codes are currently supported:
+    p This service allows you to test how your code handles various HTTP response status codes. Just include the code you would like to test in the testing URL.
+    p Example: <a href="/code/200">https://http-response-status-code-tester.netlify.app/code/200</a>
+    p This will return a status of <code>200 OK</code>.
+    h2 The following codes are fully supported.
     table
       each item in data
-        tr
-          td
-            | #[a(href=item.sourceUrl target="_blank") #{item.code}]
-            | #{item.reasonPhrase}
+        if item.fullySupported === true
+          tr
+            td
+              | #[a(href=item.sourceUrl target="_blank") #{item.code}]
+              | #{item.reasonPhrase}
+    h2 The following codes are partially supported.
+    p Most of these will return the correct response code, but probably won't return the expected headers, body, etc. Use them at your own peril!
+    table
+      each item in data
+        if !item.fullySupported
+          tr
+            td
+              | #[a(href=item.sourceUrl target="_blank") #{item.code}]
+              | #{item.reasonPhrase}

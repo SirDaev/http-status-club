@@ -1,2 +1,63 @@
-<!DOCTYPE html><html lang="en"><head><title>HTTP Response Status Code Tester</title></head><body><h1>HTTP Response Status Code Tester</h1><h2>The following codes are currently supported:</h2><table><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200" target="_blank">200</a>
-OK</td></tr></table></body></html>
+<!DOCTYPE html><html lang="en"><head><title>HTTP Response Status Code Tester</title><style>code {background: #eee; padding: 4px 6px; border-radius: 8px;}</style></head><body><h1>HTTP Response Status Code Tester</h1><p>This service allows you to test how your code handles various HTTP response status codes. Just include the code you would like to test in the testing URL.</p><p>Example: <a href="/code/200">https://http-response-status-code-tester.netlify.app/code/200</a></p><p>This will return a status of <code>200 OK</code>.</p><h2>The following codes are fully supported.</h2><table><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200" target="_blank">200</a>
+OK</td></tr></table><h2>The following codes are partially supported.</h2><p>Most of these will return the correct response code, but probably won't return the expected headers, body, etc. Use them at your own peril!</p><table><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/100" target="_blank">100</a>
+Continue</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/101" target="_blank">101</a>
+Switching Protocols</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/102" target="_blank">102</a>
+Processing</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/103" target="_blank">103</a>
+Early Hints</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/103" target="_blank">103</a>
+Early Hints</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/201" target="_blank">201</a>
+Created</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/202" target="_blank">202</a>
+Accepted</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/203" target="_blank">203</a>
+Non-Authoritative Information</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/204" target="_blank">204</a>
+No Content</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/205" target="_blank">205</a>
+Reset Content</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/206" target="_blank">206</a>
+Partial Content</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/207" target="_blank">207</a>
+Multi-Status</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/208" target="_blank">208</a>
+Already Reported</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/226" target="_blank">226</a>
+IM Used</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/300" target="_blank">300</a>
+Multiple Choices</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/301" target="_blank">301</a>
+Moved Permanently</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/302" target="_blank">302</a>
+Found</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303" target="_blank">303</a>
+See Other</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/304" target="_blank">304</a>
+Not Modified</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/307" target="_blank">307</a>
+Temporary Redirect</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/307" target="_blank">308</a>
+Permanent Redirect</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400" target="_blank">400</a>
+Bad Request</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401" target="_blank">401</a>
+Unauthorized</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402" target="_blank">402</a>
+Payment Required</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403" target="_blank">403</a>
+Forbidden</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404" target="_blank">404</a>
+Not Found</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/405" target="_blank">405</a>
+Method Not Allowed</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/406" target="_blank">406</a>
+Not Acceptable</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/407" target="_blank">407</a>
+Proxy Authentication Required</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/408" target="_blank">408</a>
+Request Timeout</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/409" target="_blank">409</a>
+Conflict</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410" target="_blank">410</a>
+Gone</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/411" target="_blank">411</a>
+Length Required</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/412" target="_blank">412</a>
+Precondition Failed</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/413" target="_blank">413</a>
+Content Too Large</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/414" target="_blank">414</a>
+URI Too Long</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/415" target="_blank">415</a>
+Unsupported Media Type</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/416" target="_blank">416</a>
+Range Not Satisfiable</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/417" target="_blank">417</a>
+Expectation Failed</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418" target="_blank">418</a>
+I'm a teapot</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/421" target="_blank">421</a>
+Misdirected Request</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422" target="_blank">422</a>
+Unprocessable Content</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/423" target="_blank">423</a>
+Locked</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/424" target="_blank">424</a>
+Failed Dependency</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/425" target="_blank">425</a>
+Too Early</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/426" target="_blank">426</a>
+Upgrade Required</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/428" target="_blank">428</a>
+Precondition Required</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429" target="_blank">429</a>
+Too Many Requests</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/431" target="_blank">431</a>
+Request Header Fields Too Large</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/431" target="_blank">451</a>
+Unavailable For Legal Reasons</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500" target="_blank">500</a>
+Internal Server Error</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/501" target="_blank">501</a>
+Not Implemented</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502" target="_blank">502</a>
+Bad Gateway</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503" target="_blank">503</a>
+Service Unavailable</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504" target="_blank">504</a>
+Gateway Timeout</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/505" target="_blank">505</a>
+HTTP Version Not Supported</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/506" target="_blank">506</a>
+Variant Also Negotiates</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/507" target="_blank">507</a>
+Insufficient Storage</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/508" target="_blank">508</a>
+Loop Detected</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/510" target="_blank">510</a>
+Not Extended</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/511" target="_blank">511</a>
+Network Authentication Required</td></tr></table></body></html>

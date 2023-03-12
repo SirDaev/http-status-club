@@ -1,7 +1,313 @@
 [
   {
+    "code": 100,
+    "reasonPhrase": "Continue",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/100"
+  },
+  {
+    "code": 101,
+    "reasonPhrase": "Switching Protocols",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/101"
+  },
+  {
+    "code": 102,
+    "reasonPhrase": "Processing",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/102"
+  },
+  {
+    "code": 103,
+    "reasonPhrase": "Early Hints",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/103"
+  },
+  {
+    "code": 103,
+    "reasonPhrase": "Early Hints",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/103"
+  },
+  {
     "code": 200,
     "reasonPhrase": "OK",
-    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200"
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200",
+    "fullySupported": true
+  },
+  {
+    "code": 201,
+    "reasonPhrase": "Created",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/201"
+  },
+  {
+    "code": 202,
+    "reasonPhrase": "Accepted",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/202"
+  },
+  {
+    "code": 203,
+    "reasonPhrase": "Non-Authoritative Information",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/203"
+  },
+  {
+    "code": 204,
+    "reasonPhrase": "No Content",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/204"
+  },
+  {
+    "code": 205,
+    "reasonPhrase": "Reset Content",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/205"
+  },
+  {
+    "code": 206,
+    "reasonPhrase": "Partial Content",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/206"
+  },
+  {
+    "code": 207,
+    "reasonPhrase": "Multi-Status",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/207"
+  },
+  {
+    "code": 208,
+    "reasonPhrase": "Already Reported",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/208"
+  },
+  {
+    "code": 226,
+    "reasonPhrase": "IM Used",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/226"
+  },
+  {
+    "code": 300,
+    "reasonPhrase": "Multiple Choices",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/300"
+  },
+  {
+    "code": 301,
+    "reasonPhrase": "Moved Permanently",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/301"
+  },
+  {
+    "code": 302,
+    "reasonPhrase": "Found",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/302"
+  },
+  {
+    "code": 303,
+    "reasonPhrase": "See Other",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303"
+  },
+  {
+    "code": 304,
+    "reasonPhrase": "Not Modified",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/304"
+  },
+  {
+    "code": 307,
+    "reasonPhrase": "Temporary Redirect",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/307"
+  },
+  {
+    "code": 308,
+    "reasonPhrase": "Permanent Redirect",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/307"
+  },
+  {
+    "code": 400,
+    "reasonPhrase": "Bad Request",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
+  },
+  {
+    "code": 401,
+    "reasonPhrase": "Unauthorized",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+  },
+  {
+    "code": 402,
+    "reasonPhrase": "Payment Required",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402"
+  },
+  {
+    "code": 403,
+    "reasonPhrase": "Forbidden",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+  },
+  {
+    "code": 404,
+    "reasonPhrase": "Not Found",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+  },
+  {
+    "code": 405,
+    "reasonPhrase": "Method Not Allowed",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/405"
+  },
+  {
+    "code": 406,
+    "reasonPhrase": "Not Acceptable",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/406"
+  },
+  {
+    "code": 407,
+    "reasonPhrase": "Proxy Authentication Required",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/407"
+  },
+  {
+    "code": 408,
+    "reasonPhrase": "Request Timeout",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/408"
+  },
+  {
+    "code": 409,
+    "reasonPhrase": "Conflict",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/409"
+  },
+  {
+    "code": 410,
+    "reasonPhrase": "Gone",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
+  },
+  {
+    "code": 411,
+    "reasonPhrase": "Length Required",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/411"
+  },
+  {
+    "code": 412,
+    "reasonPhrase": "Precondition Failed",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/412"
+  },
+  {
+    "code": 413,
+    "reasonPhrase": "Content Too Large",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/413"
+  },
+  {
+    "code": 414,
+    "reasonPhrase": "URI Too Long",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/414"
+  },
+  {
+    "code": 415,
+    "reasonPhrase": "Unsupported Media Type",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/415"
+  },
+  {
+    "code": 416,
+    "reasonPhrase": "Range Not Satisfiable",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/416"
+  },
+  {
+    "code": 417,
+    "reasonPhrase": "Expectation Failed",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/417"
+  },
+  {
+    "code": 418,
+    "reasonPhrase": "I'm a teapot",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418"
+  },
+  {
+    "code": 421,
+    "reasonPhrase": "Misdirected Request",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/421"
+  },
+  {
+    "code": 422,
+    "reasonPhrase": "Unprocessable Content",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422"
+  },
+  {
+    "code": 423,
+    "reasonPhrase": "Locked",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/423"
+  },
+  {
+    "code": 424,
+    "reasonPhrase": "Failed Dependency",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/424"
+  },
+  {
+    "code": 425,
+    "reasonPhrase": "Too Early",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/425"
+  },
+  {
+    "code": 426,
+    "reasonPhrase": "Upgrade Required",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/426"
+  },
+  {
+    "code": 428,
+    "reasonPhrase": "Precondition Required",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/428"
+  },
+  {
+    "code": 429,
+    "reasonPhrase": "Too Many Requests",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  },
+  {
+    "code": 431,
+    "reasonPhrase": "Request Header Fields Too Large",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/431"
+  },
+  {
+    "code": 451,
+    "reasonPhrase": "Unavailable For Legal Reasons",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/431"
+  },
+  {
+    "code": 500,
+    "reasonPhrase": "Internal Server Error",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+  },
+  {
+    "code": 501,
+    "reasonPhrase": "Not Implemented",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/501"
+  },
+  {
+    "code": 502,
+    "reasonPhrase": "Bad Gateway",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502"
+  },
+  {
+    "code": 503,
+    "reasonPhrase": "Service Unavailable",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+  },
+  {
+    "code": 504,
+    "reasonPhrase": "Gateway Timeout",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
+  },
+  {
+    "code": 505,
+    "reasonPhrase": "HTTP Version Not Supported",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/505"
+  },
+  {
+    "code": 506,
+    "reasonPhrase": "Variant Also Negotiates",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/506"
+  },
+  {
+    "code": 507,
+    "reasonPhrase": "Insufficient Storage",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/507"
+  },
+  {
+    "code": 508,
+    "reasonPhrase": "Loop Detected",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/508"
+  },
+  {
+    "code": 510,
+    "reasonPhrase": "Not Extended",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/510"
+  },
+  {
+    "code": 511,
+    "reasonPhrase": "Network Authentication Required",
+    "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/511"
   }
 ]
