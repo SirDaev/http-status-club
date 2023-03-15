@@ -1,12 +1,18 @@
 doctype html
 html(lang="en")
   head
-    title HTTP Response Status Code Tester
-    <style>code {background: #eee; padding: 4px 6px; border-radius: 8px;}</style>
+    title HTTP Status Club - Test HTTP response status codes for your API calls.
+    <style>
+      | code {background: #eee; padding: 4px 6px; border-radius: 8px;}
+      | .logo {width: 120px;}
+    </style>
   body
-    h1 HTTP Response Status Code Tester
+    div.logo
+      img(src="./images/logo.svg")
+    h1 HTTP Status Club
+    h2 Where Status is all that matters.
     p This service allows you to test how your code handles various HTTP response status codes. Just include the code you would like to test in the testing URL.
-    p Example: <a href="/code/200">https://http-response-status-code-tester.netlify.app/code/200</a>
+    p Example: <a href="/code/200">https://httpstatus.club/code/200</a>
     p This will return a status of <code>200 OK</code>.
     h2 The following codes are fully supported.
     table

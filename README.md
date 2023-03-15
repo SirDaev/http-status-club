@@ -1,1 +1,2 @@
-# HTTP Status Code Tester
+# HTTP Status Club
+## Where status is all that matters.
