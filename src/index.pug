@@ -1,16 +1,26 @@
 doctype html
 html(lang="en")
   head
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     title HTTP Status Club - Test HTTP response status codes for your API calls.
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rokkitt">
+    <link rel="stylesheet" href="./styles/styles.css">
     <style>
-      | code {background: #eee; padding: 4px 6px; border-radius: 8px;}
-      | .logo {width: 120px;}
+      | html { background-color: #71C597; color: #292929; font-family: "Maven Pro"; font-weight: 600;}
+      | h1,h2,h3,h4,h5,h6 { font-family: "Rokkitt";}
+      | code {background: #ccc; color: #292929; padding: 4px 6px; border-radius: 8px;}
+      | header {display: flex; align-items: center;}
+      | .name {margin: 5px 0 0 12px;}
+      | .logo {width: 80px; padding: 8px;}
+      | .tagline {font-family: "Maven Pro";}
     </style>
   body
-    div.logo
-      img(src="./images/logo.svg")
-    h1 HTTP Status Club
-    h2 Where Status is all that matters.
+    header
+      div.logo
+        img(src="./images/logo.svg")
+      h1.name HTTP Status Club
+    h2.tagline Where Status is all that matters.
     p This service allows you to test how your code handles various HTTP response status codes. Just include the code you would like to test in the testing URL.
     p Example: <a href="/code/200">https://httpstatus.club/code/200</a>
     p This will return a status of <code>200 OK</code>.

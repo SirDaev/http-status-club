@@ -1,5 +1,13 @@
-<!DOCTYPE html><html lang="en"><head><title>HTTP Status Club - Test HTTP response status codes for your API calls.</title><style>code {background: #eee; padding: 4px 6px; border-radius: 8px;}
-.logo {width: 120px;}</style></head><body><div class="logo"><img src="./images/logo.svg"></div><h1>HTTP Status Club</h1><h2>Where Status is all that matters.</h2><p>This service allows you to test how your code handles various HTTP response status codes. Just include the code you would like to test in the testing URL.</p><p>Example: <a href="/code/200">https://httpstatus.club/code/200</a></p><p>This will return a status of <code>200 OK</code>.</p><h2>The following codes are fully supported.</h2><table><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200" target="_blank">200</a>
+<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="width=device-width,initial-scale=1" /><title>HTTP Status Club - Test HTTP response status codes for your API calls.</title><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rokkitt">
+<link rel="stylesheet" href="./styles/styles.css">
+<style>html { background-color: #71C597; color: #292929; font-family: "Maven Pro"; font-weight: 600;}
+h1,h2,h3,h4,h5,h6 { font-family: "Rokkitt";}
+code {background: #ccc; color: #292929; padding: 4px 6px; border-radius: 8px;}
+header {display: flex; align-items: center;}
+.name {margin: 5px 0 0 12px;}
+.logo {width: 80px; padding: 8px;}
+.tagline {font-family: "Maven Pro";}</style></head><body><header><div class="logo"><img src="./images/logo.svg"></div><h1 class="name">HTTP Status Club</h1></header><h2 class="tagline">Where Status is all that matters.</h2><p>This service allows you to test how your code handles various HTTP response status codes. Just include the code you would like to test in the testing URL.</p><p>Example: <a href="/code/200">https://httpstatus.club/code/200</a></p><p>This will return a status of <code>200 OK</code>.</p><h2>The following codes are fully supported.</h2><table><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200" target="_blank">200</a>
 OK</td></tr></table><h2>The following codes are partially supported.</h2><p>Most of these will return the correct response code, but probably won't return the expected headers, body, etc. Use them at your own peril!</p><table><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/100" target="_blank">100</a>
 Continue</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/101" target="_blank">101</a>
 Switching Protocols</td></tr><tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/102" target="_blank">102</a>

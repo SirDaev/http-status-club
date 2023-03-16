@@ -4,13 +4,13 @@
     <g id="Artboard1" transform="matrix(0.96822,0,0,0.766881,-69.5709,44.6788)">
         <rect x="71.854" y="-58.26" width="510.004" height="336.041" style="fill:none;"/>
         <g transform="matrix(1.13971,-1.20741,0.956333,1.43894,-453.957,94.1145)">
-            <text x="227.574px" y="363.235px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:259.353px;">4</text>
+            <text x="227.574px" y="363.235px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:259.353px;" fill="#292929">4</text>
         </g>
         <g transform="matrix(0.967049,0,0,0.917218,38.021,-100.392)">
-            <text x="227.574px" y="363.235px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:259.353px;">0</text>
+            <text x="227.574px" y="363.235px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:259.353px;" fill="#292929">0</text>
         </g>
         <g transform="matrix(-1.13971,-1.20741,-0.956333,1.43894,1107.76,92.6713)">
-            <text x="227.574px" y="363.235px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:259.353px;">4</text>
+            <text x="227.574px" y="363.235px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:259.353px;" fill="#292929">4</text>
         </g>
     </g>
 </svg>
