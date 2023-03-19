@@ -1,34 +1,36 @@
 doctype html
 html(lang="en")
   head
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    meta(name="viewport" content="width=device-width,initial-scale=1")
     title HTTP Status Club - Test HTTP response status codes for your API calls.
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rokkitt">
-    <link rel="stylesheet" href="./styles/styles.css">
-  body
-    header
-      div.logo
-        img(src="./images/logo.svg")
-      h1.name HTTP Status Club
-    h2.tagline Where Status is all that matters.
-    p This service allows you to test how your code handles various HTTP response status codes. Just include the code you would like to test in the testing URL.
-    p Example: <a href="/code/200">https://httpstatus.club/code/200</a>
-    p This will return a status of <code>200 OK</code>.
-    h2 The following codes are fully supported.
-    table
-      each item in data
-        if item.fullySupported === true
-          tr
-            td
-              | #[a(href=item.sourceUrl target="_blank") #{item.code}]
-              | #{item.reasonPhrase}
-    h2 The following codes are partially supported.
-    p Most of these will return the correct response code, but probably won't return the expected headers, body, etc. Use them at your own peril!
-    table
-      each item in data
-        if !item.fullySupported
-          tr
-            td
-              | #[a(href=item.sourceUrl target="_blank") #{item.code}]
-              | #{item.reasonPhrase}
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro")
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rokkitt")
+    link(rel="stylesheet" href="./styles/styles.css")
+  body.bg-green.text-black.font-sans.font-semibold
+    header.pt-8.pb-4.mb-7.container.border-b
+      div.flex.items-center.mb-2
+        div(class="w-[80px]")
+          img(src="./images/logo.svg")
+        h1(class="mt-[5px] ml-[12px] text-3xl") HTTP Status Club
+      h2.font-sans.text-xl Where Status is all that matters.
+    main.container
+      p This service allows you to test how your code handles various HTTP response status codes. Just include the code you would like to test in the testing URL.
+      p Example: <a href="https://httpstatus.club/code/200">https://httpstatus.club/code/200</a>
+      p This will return a status of <code>200 OK</code>.
+      h2 The following codes are fully supported.
+      table.table-auto
+        each item in data
+          if item.fullySupported === true
+            tr
+              td(class="w-[48px]") #[a(href=item.sourceUrl target="_blank") #{item.code}]
+              td #{item.reasonPhrase}
+      h2 The following codes are partially supported.
+      p Most of these will return the correct response code, but probably won't return the expected headers, body, etc. Use them at your own peril!
+      table.table-auto
+        each item in data
+          if !item.fullySupported
+            tr
+              td(class="w-[48px]") #[a(href=item.sourceUrl target="_blank") #{item.code}]
+              td #{item.reasonPhrase}
+    footer.pt-8.mb-8.container.border-t
+      p.text-center Made by Dave #[a(href="https://github.com/SirDaev/http-status-club" target="_blank") #[img(src="./images/github-icon.svg" alt="Github" class="inline w-[20px] align-text-bottom")]]
